@@ -7,7 +7,7 @@ def get_request_gsv(locations, name):
         #Parameters
         param = {
         'size': '640x640', # max 640x640 pixels
-        'location': locations,
+        'location': locations, # accepts string of locations seperated by ; 
         'fov': '50', # field of view 
         'radius': '5', # radius in meters for image around the location
         'pitch': '12', # ptich of the camera 0 = ground level
